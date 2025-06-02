@@ -2,4 +2,4 @@ title: Margot Smith
 #logo: headshot
 #description: text below
 show_downloads = False
-theme: Architect
+theme: jekyll-theme-architect
