@@ -1,5 +1,5 @@
 title: Margot Smith
 #logo: headshot
 #description: text below
-#show_downloads = False
+show_downloads = False
 theme: Architect
