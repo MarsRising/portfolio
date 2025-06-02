@@ -9,3 +9,5 @@ dependencies:
   - matplotlib=3.9.1
   - scikit-learn=1.5.1
   - mlflow=2.20.0
+  - pip:
+    -json
