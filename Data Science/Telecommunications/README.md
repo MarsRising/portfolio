@@ -1,3 +1,11 @@
+#Telecommunications Churn
+
 As stated in the data dictionary, it costs 10 times more to acquire new customers than maintaining current customers. With that being said, stakeholders wanted to understand what customers are at a high risk of churn. My question for this analysis is, “What factors related to customers are related to churn. The goal of this analysis is to segment the data, so I can understand what factors are closely related to churn. 
 
 For this scenario, I will use hierarchical clustering. I decided to use this clustering technique as hierarchical clustering does not require me to set the number of clusters and instead provides a dendrogram that can help me with making the best decision for a more accurate model. An assumption of this clustering technique is that it will be a higher computational cost, than k-means. This computational cost will be worth it, as it will create a stronger model.
+
+![image](https://github.com/user-attachments/assets/7c30ffd5-f7b4-4ff6-9cc6-918c4a0d8a99)
+
+As seen above we could see the two separate components easily with their colors separating them. The results of these clusters showed that one cluster had about 7.31% churn, while the other one had 44.12% churn. We could tell then which segment was more attached to churn. Using that cluster, I created a correlation matrix to further understand what is related to churn. These results can be seen below. Monthly charges, if the customer streamed movies or tv, and whether they had multiple lines were all connected to churn. What we can assume is that the higher the monthly charges (that would be typically related to streaming movies, streaming tv, and multiple lines), the more likely the customer would churn. I suggest looking into ways to reduce the monthly charges for customers, so we can maintain our highest users. I feel it is also important to clarify that while we understand what is connected to churn the most, we could further analyze this data by seeing what factors are most likely to cause churn by using a supervised model like a random forest. The limitation to this model is that we can see what in this segment is tied to churn, but not precisely what is causing it. I suggest further analysis to specifically understand what causes churn.
+
+![image](https://github.com/user-attachments/assets/7b137ad6-636d-4c6b-9bf9-ff46a353dff0)
