@@ -1,8 +1,0 @@
-name: D602_Task_2
-conda_env: pipeline_env.yaml
-
-entry points:
-  main:
-    parameters:
-      data_file: T_ONTIME_REPORTING.csv
-    command: "python main.py {data_file}"
