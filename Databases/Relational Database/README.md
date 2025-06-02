@@ -1,7 +1,7 @@
 #ECOMART BUSINESS PROBLEM
 
-EcoMart’s business problem is that their current data is dynamic, and they would like a database that will prioritize scalability and performance. It is important that their customers are provided with speed, reliability, and data security to protect their personal data. They need this data model to be monitored to identify and handle any bottlenecks, data security vulnerabilities, and data inconsistencies.
-As EcoMart has requested, I am using a relational database. This will be beneficial as a relational database will allow for one-to-many relationships to connect customer data to the different groceries, apparel, home goods, and personal care items they seek (IBM Technology, 2021). Relational databases are also efficient and robust, which aligns with EcoMart’s request for scalability, reliability, and stability, as relational databases are atomicity, consistency, isolation, and durability (ACID) compliant. 
+  EcoMart’s business problem is that their current data is dynamic, and they would like a database that will prioritize scalability and performance. It is important that their customers are provided with speed, reliability, and data security to protect their personal data. They need this data model to be monitored to identify and handle any bottlenecks, data security vulnerabilities, and data inconsistencies.
+  As EcoMart has requested, I am using a relational database. This will be beneficial as a relational database will allow for one-to-many relationships to connect customer data to the different groceries, apparel, home goods, and personal care items they seek. Relational databases are also efficient and robust, which aligns with EcoMart’s request for scalability, reliability, and stability, as relational databases are atomicity, consistency, isolation, and durability (ACID) compliant. 
 
 
 
