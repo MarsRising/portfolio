@@ -11,5 +11,12 @@ From the screenshot above, I can determine the principal components' matrix. We 
 
 After creating my scree plot as pictured above, I decided to go with the elbow rule. I looked at the Kaiser rule, but it seemed very restrictive as it told me only one component, and I would later implement backward stepwise elimination for optimization. To be accurate with the elbow rule, we must look to a sharp change in directionality. We can easily see from the above visual that after 2 components there is a sharp change in directionality. Our elbow is at the 2 Principal Components. The elbow rule demonstrates that 2 components are what I will retain and use in my linear regression model, as after 2 components, the others contribute less.
 
+The first principal component’s strongest contributors were ‘PreviousSalePrice’ (0.5827) and ‘RenovaionQuality’ (0.4752) and the second principal component’s strongest contributor is ‘NumBedrooms’ (0.8468).
+
+![image](https://github.com/user-attachments/assets/f4e302ef-4aa8-429f-9a03-c4f96c044091)
 
 We found that the first two principal components explained the variation the best. This included the ‘PreviousSalePrice’, ‘RenovationQuality’, and ‘NumBedrooms’ variables. The p-values for these components were significant as they were less than 0.05. However, as stated above there is room for growth with an R^2 being 0.663. We have obtained this analysis's question and goal, but I recommend working on this linear model for more accurate and reliable price prediction. Having a more precise and reliable price prediction model, we, as an organization, could have more accuracy when setting out prices. This can lead to better sales and growth for our organization. 	
+
+
+![image](https://github.com/user-attachments/assets/96e12737-73c5-4702-ac54-be409016bdff)
+
