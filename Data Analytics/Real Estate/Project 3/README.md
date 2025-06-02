@@ -1,0 +1,2 @@
+My research question for this scenario is, “Which principal components explain the most variation in house prices?”. 
+This analysis aims to understand which factors influence house prices the most. Knowing the principal components that determine house prices, we can create a predictive model to help estimate what house prices should be. Setting these house prices will be important in making profits and investment decisions
