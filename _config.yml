@@ -1,5 +1,5 @@
 title: Margot Smith
 logo: /assets/img/headshot.png
 #description: text below
-show_downloads: true
+show_downloads: false
 theme: jekyll-theme-architect
