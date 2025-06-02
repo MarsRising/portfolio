@@ -1,0 +1,1 @@
+“What items do customers typically purchase together?” The goal is to understand what items customers typically purchase together to understand the relationships between items. This understanding will serve a great purpose as this understanding will help inform targeted strategies in advertisements, suggesting items, and organization of items in the database.
