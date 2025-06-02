@@ -1,0 +1,8 @@
+name: D602
+conda_env: pipeline_env.yaml
+
+entry points:
+  main:
+    parameters:
+      data_file: { type: str, default: "data/T_ONTIME_REPORTING.csv" }
+    command: "python poly_regressor_Python_1.0.0__1_.py --datafile {data_file}"
