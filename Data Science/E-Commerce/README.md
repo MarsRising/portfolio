@@ -3,6 +3,7 @@
 ## Can I create an effective gradient-boosting model to detect fraud in e-commerce transactions?
 
 Null Hypothesis- The gradient boosting model has a recall of less than 70%.
+
 Alternative Hypothesis- The gradient boosting model has a recall greater than 70%.
 
 ![image](https://github.com/user-attachments/assets/8af7cd28-6b75-4802-9c05-b514f61bb095)
